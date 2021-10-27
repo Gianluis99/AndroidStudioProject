@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientcolor2"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".ui.addPrenotazioni.AddPrenotazioneFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="409dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <EditText
+            android:id="@+id/textAddPrenotazioneId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint=" Inserisci id Prenotazione"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="6dp" />
+
+        <EditText
+            android:id="@+id/editTextDatePrenotazione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint=" Inserisci la data"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:paddingStart="6dp" />
+
+        <EditText
+            android:id="@+id/textAddPrenotazioneOra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint=" Inserisci l'ora"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="6dp" />
+
+        <EditText
+            android:id="@+id/editTextClienteIdPre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Inserisci l'id del Cliente"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="6dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addPrenotazioneButton"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Aggiungi"
+        app:icon="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="398dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/iconprenotation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

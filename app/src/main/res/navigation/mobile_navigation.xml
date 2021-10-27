@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.finalprojectmobile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_prenotazioni"
+        android:name="com.example.finalprojectmobile.ui.prenotazioni.PrenotazioneFragment"
+        android:label="@string/prenotazioni"
+        tools:layout="@layout/fragment_prenotazione" />
+    <fragment
+        android:id="@+id/nav_clienti"
+        android:name="com.example.finalprojectmobile.ui.clienti.ClienteFragment"
+        android:label="@string/clienti"
+        tools:layout="@layout/fragment_cliente" />
+    <fragment
+        android:id="@+id/nav_aggiungiPrenotazione"
+        android:name="com.example.finalprojectmobile.ui.addPrenotazioni.AddPrenotazioneFragment"
+        android:label="@string/aggiungi_una_prenotazione"
+        tools:layout="@layout/fragment_aggiungiprenotazione" />
+
+    <fragment
+        android:id="@+id/nav_aggiungiCliente"
+        android:name="com.example.finalprojectmobile.ui.addClienti.AddClienteFragment"
+        android:label="@string/aggiungi_un_cliente"
+        tools:layout="@layout/fragment_aggiungicliente" />
+
+</navigation>
