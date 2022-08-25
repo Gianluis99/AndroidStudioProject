@@ -12,7 +12,7 @@ App Gestionale per gestire le prenotazioni di uno studio.
 * Database info clienti.
 
 
-#Altre informazioni
+# Altre informazioni
 
 ## Activity
 * Mobile-navigation è un Navigation Resource File e  ci permette di andare a navigare fra i fragment.
@@ -20,10 +20,10 @@ App Gestionale per gestire le prenotazioni di uno studio.
 * I fragment sono delle pagine che è possibile aprire grazie al menu scorrevole,
 posto sulla sinistra.
 
-*Per permettere ai fragment di essere scorsi, dobbiamo inseririre l'apposito bottone
+* Per permettere ai fragment di essere scorsi, dobbiamo inseririre l'apposito bottone
 nel menu tramite activity_main_drawer.
 
-*Inoltre dobbiamo andare nel navigation ed inserire il fragment, mettendo in String l'apposita stringa
+* Inoltre dobbiamo andare nel navigation ed inserire il fragment, mettendo in String l'apposita stringa
 che va a identificare un fragment.
 
 
@@ -34,7 +34,7 @@ che va a identificare un fragment.
 
 
 ## Aggiungere un activity:
-*un Activity deve essere dichiarata nel manifest.
+* un Activity deve essere dichiarata nel manifest.
 
 
 ## Manifest:
@@ -43,9 +43,11 @@ che va a identificare un fragment.
 
 ## Colori:
 
-*per cambiare i colori  andare in theme e per esempio
-qualora si volessa cambiare i colori del Primary basta inserire questa riga xml
+* per cambiare i colori  andare in theme e per esempio
+qualora si volessa cambiare i colori del Primary basta inserire la seguente riga xml:
+```
   <item name="colorPrimary">@color/teal_700</item>.
+```
 
 * color button bisgna fare backgroundTint
 
